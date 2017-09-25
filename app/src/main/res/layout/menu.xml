@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+<!--Menu-->
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="160dp"
+        android:layout_height="290dp"
+        app:srcCompat="@drawable/menu"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="-12dp"/>
+<!--Exit Menu Button -->
+    <ImageButton
+        android:id="@+id/imageView4"
+        android:onClick="gotomain"
+        android:scaleType="fitXY"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/btbexit"
+        android:background="#00000000"/>
+<!--Title-->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/apptitle" />
+<!--BlueTooth On/Off Button -->
+    <ImageButton
+        android:id="@+id/btbutton"
+        android:onClick="bluetoothonoff"
+        android:scaleType="fitXY"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/btbbase"
+        android:background="#00000000"/>
+<!--Connect Button-->
+    <ImageButton
+        android:id="@+id/imageView5"
+        android:onClick="gotoconnect"
+        android:scaleType="fitXY"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        app:srcCompat="@drawable/connect"
+        android:background="#00000000"/>
+<!--Settings Button-->
+    <ImageButton
+        android:id="@+id/imageView6"
+        android:onClick=""
+        android:scaleType="fitXY"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="20dp"
+        app:srcCompat="@drawable/settings"
+        android:background="#00000000"/>
+<!--About Button-->
+    <ImageButton
+        android:id="@+id/imageView7"
+        android:onClick=""
+        android:scaleType="fitXY"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="178dp"
+        android:layout_marginLeft="20dp"
+        app:srcCompat="@drawable/about"
+        android:background="#00000000"/>
+
+</RelativeLayout>
